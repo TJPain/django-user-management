@@ -11,6 +11,8 @@ Hello, {{ user.username|default:'Guest' }}!
         <a href="{% url 'password_change' %}">Change password</a>
     {% else %}
         <a href="{% url 'login' %}">Login</a>
+        <br>
+        <a href="{% url 'register' %}">Register</a>
     {% endif %}
 </div>
 {% endblock %}
