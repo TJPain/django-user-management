@@ -29,6 +29,8 @@ $ python manage.py runserver
 
 Reset password emails will only send to hello@tompa.in as this site is connected to a sandbox version of Mailgun and will only send if you have the EMAIL_HOST_USER and EMAIL_HOST_PASSWORD saves as environmental variables. 
 
+For social logins, you must be viewing the site on http://localhost:8000/
+
 ---
 
 ## Project Components
